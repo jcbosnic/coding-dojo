@@ -1,0 +1,109 @@
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+h3{
+	margin: 0;
+	padding: 30px 0 0 0;
+}
+
+p{
+	margin: 0;
+}
+
+#container{
+	width: 500px;
+}
+
+.profile-img{
+	height: 90px;
+	width: 90px;
+}
+
+#media {
+	display: flex;
+	flex-direction: row;
+	padding: 20px 0;
+	width: 100%;
+}
+
+.media-block {
+	align-items: center;
+	display: flex;
+	flex-grow: 1;
+}
+
+.media-img {
+	height: 35px;
+	width: 35px;
+}
+
+.social-img{
+	height: 40px;
+	width: 40px;
+}
+
+.media-block .link {
+	padding: 0 0 0 10px;
+}
+
+.link{
+	color: #333;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.media-link:hover {
+	color: blue;
+}
+
+table{
+	padding: 10px 0 0;
+	text-align: left;
+	width: 100%;
+}
+
+td, th{
+	box-sizing: border-box;
+	padding: 10px 5px;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #F0F0F0;
+}
+
+input{
+	border: 1px solid #CCC;
+	font-size: 14px;
+	height: 30px;
+	outline: none;
+	padding: 5px;
+	width: 100%;
+}
+
+textarea{
+	border: 1px solid #CCC;
+	font-size: 14px;
+	max-height: 150px;
+	outline: none;
+	padding: 5px;
+	width: 100%;
+}
+
+button{
+	background-color: red;
+	border: none;
+	color: white;
+	font-size: 14px;
+	height: 40px;
+	margin: 10px 0 0;
+	outline: none;
+	text-align: center;
+	width: 200px;
+}
+
+.row p{
+	padding: 15px 0 5px 0;
+}
